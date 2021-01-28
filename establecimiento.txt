@@ -1,0 +1,33 @@
+// plugin para logs
+// https://github.com/rap2hpoutre/laravel-log-viewer
+
+
+composer require laravel/ui
+php artisan ui:auth
+php artisan ui vue
+php artisan ui bootstrap
+npm i
+
+composer require laraveles/spanish
+laraveles:install-lang
+config/app.php cambiar 'locale' => 'en' por 'locale' => 'es',
+
+
+
+npm i --save-dev vuex
+// creamos en js la carpeta store, en ella el archivo index
+
+
+npm i --save-dev vue-router
+
+
+npm i --save-dev vue2-leaflet
+npm i --save leaflet
+// para visualizar los mapas https://vue2-leaflet.netlify.app/components/
+
+//https://leafletjs.com/download.html
+
+// animacion para cambiar de url, router
+npm install --save vue-page-transition
+// https://www.npmjs.com/package/vue-page-transition
+// https://orlandster.github.io/vue-page-transition/#/zoom/default

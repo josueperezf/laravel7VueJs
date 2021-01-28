@@ -1,0 +1,22 @@
+Pasos
+composer require laravel/ui
+php artisan ui:auth  // para crear la autenticacion
+php artisan ui vue // para instalar vue
+npm install
+npm run watch
+
+-----instalar tailwindcss en lugar de boostrap------
+npm install --save-dev tailwindcss laravel-mix-tailwind
+npx tailwindcss init // para que cree un archivo de configuracion dentro del proyecto
+- en webpack.mix agregar require('laravel-mix-tailwind');
+- al final de el archivo webpack.mix agregarle a llamado de mix.js() el metodo .tailwind();
+- abrir app.scss y eliminar el llamado a las variables, ya que las mismas son para boostrap y no se usara // @import 'variables';
+- en app.scss eliminar la importacion de bootstrap, y colocar 
+- agregar estas importaciones: @tailwind base; @tailwind components; @tailwind utilities;
+npm run watch // si marca error es porque trata de buscar el archivo tailwind.js y no lo consigue, si es asi, buscamos el que se llama tailwind.config.js y lo renombramos a tailwind.js
+
+
+
+composer require laraveles/spanish
+php artisan laraveles:install-lang
+-- despues en config/app.php en 'locale', lo colocamos en 'es'

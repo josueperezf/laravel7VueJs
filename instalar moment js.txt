@@ -1,0 +1,5 @@
+colocamos
+npm i --save moment
+luego vamos a  boostrap.js
+agregamos esta linea window.moment = require('moment');
+y ejecutamos el npm run dev o si no pues el npm run watch

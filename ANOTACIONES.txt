@@ -1,0 +1,24 @@
+tipo de datos
+bigInvrements --- autoincrement gigante
+string varchar longitud corta
+text texto grande
+
+
+
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
+la palabra 'defer' hace que ese script se cargue al final de toda la pagina
+
+
+-----instalacion de vue-sweetalert2---
+https://www.npmjs.com/package/vue-sweetalert2
+npm install -S vue-sweetalert2
+lo uso el eliminar receta para hacer confirm
+en el archivo app.js se debe agregar esto 
+import VueSweetalert2 from 'vue-sweetalert2';
+Vue.use(VueSweetalert2);
+https://sweetalert2.github.io/
+si quiero ver si lo agrego puedo hacer un log a Vue.prototype
+
+
+

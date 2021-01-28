@@ -1,0 +1,13 @@
+EXTENSIONES
+php Namespace Resolver ---- hace que si colocamos ejemplo, DB:: Y hacemos click secundario, nos va a dar opciones y entre ellas permite hacer el import de la fachada
+laravel goto view ----- hace que si le precionamos control y colocamos el mouse sobre un return view('xx'); nos va a abrir la vista este donde este
+php intellisense -- autocompletado php
+php intelephense -- autocompletado php
+php extension pack -- autocompletado php
+laravel snippets -- autocompleta laravel, ejemplo si colocas return view muestra las vistas disponibles
+
+
+vue 
+vue 2 snippets para ayudas con vue
+vue-beautify
+vetur

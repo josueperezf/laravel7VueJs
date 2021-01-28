@@ -1,0 +1,44 @@
+INSTALAR
+
+composer require laravel/ui - PARA MANEJO DE AUTENTICACIONES Y vue, boostrap DEMAS
+DESPUES DE ESTO YA PUEDO ESCRIBIR php artisan ui:auth
+
+crear el login y registre pero sin css, sin dise;o
+ ---
+
+para instalar boostrap
+php artisan ui boostrap
+
+para instalar vue
+php artisan ui vue
+npm install
+npm run dev
+
+---- npm run watch hace que no tengas que estar ejecutando npm run dev cada vez que hagas un cambio
+
+--para que lo contenido en la carpeta storage de laravel sea visible desde fuera y poder mostrar las imagenes subidas
+ php artisan storage:link
+
+
+
+--- para traducir los mensajes de espa;ol
+composer require laraveles/spanish
+luego
+php artisan laraveles:install-lang
+despues en config/app.php
+en 'locale', lo colocamos en 'es'
+
+--inicio trix
+se uso trix para el editor de negrita y demAS
+se busco el en la pagina https://cdnjs.com/  https://cdnjs.com/libraries/trix
+se debe agregar en app.js esto Vue.config.ignoredElements = ['trix-editor'];
+en la etiqueta de <script defer></script> se debe incluir defer para que cargue el script de la libreria al final de la pagina
+
+-- fin trix
+
+
+
+para manejar imagenes, cortarla, colocarla borrosa y demas, se hace con image.itervention
+---- 
+composer require intervention/image
+EN LA DOCUMENTACION ESTA LA INSTALACION image.itervention

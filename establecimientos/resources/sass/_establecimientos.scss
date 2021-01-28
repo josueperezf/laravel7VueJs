@@ -1,0 +1,97 @@
+$body-bg: #f8fafc;
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: $body-bg;
+}
+h1, h2, h3, h4 {
+    font-weight: 900;
+    color: $indigo;
+}
+
+#dropzone {
+    height: auto;
+}
+
+// Dropzone
+.dropzone {
+    border: 2px dashed #C1C1C1;
+
+    .dz-error {
+        display: none;
+    }
+
+    .dz-message .dz-button{
+        color: #666;
+    }
+}
+.dz-preview.dz-file-preview.dz-complete {
+    display: none;
+}
+
+.text-primary {
+    color: $indigo!important;
+}
+.navbar.bg-white {
+    background-color: $indigo!important;
+
+    a {
+        color: white!important;
+    }
+}
+
+.navbar-nav .dropdown-menu {
+    background: $indigo;
+
+    a:hover {
+        background: $indigo;
+    }
+}
+
+.navbar.bg-white .navbar-brand{
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+legend {
+    font-weight: 900;
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: auto;
+}
+
+.btn-primary {
+    background-color: $indigo;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    &:hover {
+       background-color: darken($indigo, 10);
+    }
+}
+
+.alert-primary {
+    background: transparent;
+    text-align: center;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: $indigo;
+}
+.bg-primary{
+    background-color: $indigo !important;
+}
+.dz-filename {
+    display: none;
+}
+.dropzone .dz-preview .dz-image img {
+    display: block;
+    object-fit: scale-down;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.dz-progress {
+    display: none !important;
+}
